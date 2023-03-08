@@ -1,0 +1,74 @@
+* {
+    background-color: rgb(206, 215, 219);
+}
+
+
+#head {
+    color: rgb(44, 126, 214);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.naming {
+    font-size: 20px;
+}
+
+button {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(135, 190, 80);
+    border-radius: 5px;
+    line-height: 30px;
+    margin-top: 60px;
+    width: 100px;
+}
+
+.f-dis {
+    display: flex;
+}
+
+.inputfname {
+    margin-left: 5px;
+}
+
+.labelfname {
+    line-height: 50px;
+    margin-left: 80px;
+}
+
+.inputlname {
+    margin-left: 5px;
+}
+
+.labellname {
+    line-height: 50px;
+    margin-left: 400px;
+}
+
+.labecc{
+    margin-left: 43px;
+}
+
+.inputcc{
+    margin-top: 50px;
+}
+
+.labecvc{
+    margin-left: 455px;
+}
+
+.labeldate{
+    margin-left: 42px;
+}
+
+.inputdate{
+    margin-top: 50px;
+}

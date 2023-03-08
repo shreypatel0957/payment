@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="payment_form.css"> 
+</head>
+<body>
+    <p id="head">Payment</p>
+    <form>
+        <div class="f-dis">
+            <label class="labelfname" for="Fname">FIRST NAME: </label>
+            <input class="inputfname" type="text" name="fname" placeholder="Name" required autofocus>
+
+            <label class="labellname" for="lname">LAST NAME: </label>
+            <input class="inputlname" type="text" name="lname" placeholder="Surname" required>
+        </div>
+<br>
+        <div class="ccc">
+            <label class="labecc" for="credit card number">Credit-Card Number: </label>
+            <input class="inputcc" type="password" id="credit card number" name="credit card number" maxlength="12"
+                placeholder="•••• •••• ••••" required>
+            
+            <label class="labecvc" for="CVC">CVC: </label>
+            <input class="inputcvc" type="password" id="CVC" name="CVC" placeholder="CVC" maxlength="3" required>
+        </div>
+        <br>
+        <label class="labeldate" for="expiration">DATE EXPIRATION</label>
+        <input class="inputdate" type="text" id="expiration" name="expiration" placeholder="MM / YY" required>
+        <center><button onclick="alert('Payment Successfully Recevied')">Pay</button></center>
+
+    </form>
+</body>
+
+</html>
